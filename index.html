@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <img src="images/bg-desktop.png" alt="" id="dsMBg" />
+    <img src="images/bg-mobile.png" alt="" id="mobileMBg" />
+    <article id="fyloContainer">
+      <div id="fylo">
+        <div class="Ftext">
+          <img id="logo" src="images/logo.svg" alt="" />
+        </div>
+        <div id="iconContainer">
+          <li class="icon" id="document">
+            <img src="images/icon-document.svg" alt="" />
+          </li>
+          <li class="icon" id="folder">
+            <img src="images/icon-folder.svg" alt="" />
+          </li>
+          <li class="icon" id="upload">
+            <img src="images/icon-upload.svg" alt="" />
+          </li>
+        </div>
+      </div>
+    </article>
+
+    <article id="storageContainer">
+      <div id="storage">
+        <div id="bubble">
+          <span id="GBLeft">185</span>
+          <p id="Bp">GB LEFT</p>
+        </div>
+        <p>You’ve used <span class="white">815 Gb</span> of your storage</p>
+        <div id="progressBarContainer">
+          <div id="progressBar">
+            <div id="progressCircle"></div>
+          </div>
+        </div>
+        <div id="GBindicator">
+          <span class="white">0 GB</span>
+          <span class="white">1000 GB</span>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
